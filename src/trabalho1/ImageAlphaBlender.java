@@ -2,14 +2,15 @@ package trabalho1;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+//import java.awt.event.ActionEvent;
+//import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+@SuppressWarnings("serial")
 public class ImageAlphaBlender extends JFrame {
 
     private BufferedImage image1; // Potencialmente redimensionada
